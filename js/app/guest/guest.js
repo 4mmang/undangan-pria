@@ -297,9 +297,9 @@ export const guest = (() => {
         normalizeArabicFont();
         buildGoogleCalendar();
 
-        if (information.has('presence')) {
-            document.getElementById('form-presence').value = information.get('presence') ? '1' : '2';
-        }
+        // if (information.has('presence')) {
+        //     document.getElementById('form-presence').value = information.get('presence') ? '1' : '2';
+        // }
 
         if (information.get('info')) {
             document.getElementById('information')?.remove();
@@ -318,7 +318,7 @@ export const guest = (() => {
     const domLoaded = () => {
         lang.init();
         offline.init();
-        comment.init();
+        // comment.init();
         progress.init();
 
         config = storage('config');

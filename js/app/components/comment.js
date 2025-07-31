@@ -690,7 +690,7 @@ export const comment = (() => {
         gif,
         like,
         pagination,
-        init,
+        // init,
         send,
         edit,
         reply,

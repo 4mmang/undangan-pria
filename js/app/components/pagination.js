@@ -186,7 +186,7 @@ export const pagination = (() => {
     };
 
     return {
-        init,
+        // init,
         setPer,
         getPer,
         getNext,
